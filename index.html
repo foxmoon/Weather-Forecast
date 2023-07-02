@@ -9,6 +9,81 @@
     <title>Weather Forecast</title>
   </head>
   <body>
+    <header class="header">
+      <div class="header__container">
+        <nav class="header__nav">
+          <ul class="header__nav-list">
+            <li class="header__nav-list-item">
+              <button
+                class="active-btn header__nav-list-item-btn"
+                id="btn-Minsk"
+              >
+                Weather in Minsk
+              </button>
+            </li>
+            <li class="header__nav-list-item">
+              <button class="header__nav-list-item-btn" id="btn-user-location">
+                Weather at your location
+              </button>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="main">
+      <div class="main__container">
+        <div class="main__weather-widget-wrapper">
+          <div class="main__curr-weather-wrapper">
+            <div class="main__city-time-wrapper">
+              <span class="main__city">Minsk</span>
+              <span class="main__city-time">00:00</span>
+            </div>
+            <div class="main__weather-data-wrapper">
+              <img
+                src=""
+                alt="Precipitation image"
+                class="main__precipitation-image"
+              />
+              <span class="main__precipitation-text">Sunny</span>
+              <span class="main__temperature">0 °C</span>
+            </div>
+            <div class="main__weather-wind-wrapper">
+              <span class="main__wind-speed-label">Speed</span>
+              <span class="main__wind-speed-data">0.0 m/s</span>
+            </div>
+          </div>
+          <div class="main__weather-forecast-list-wrapper">
+            <div class="weather-forecast-card">
+              <div class="weather-forecast-card__date-time-wrapper">
+                <span class="weather-forecast-card__date">0000-00-00</span>
+                <span class="weather-forecast-card__time">00:00:00</span>
+              </div>
+              <img
+                src=""
+                alt="Precipitation image"
+                class="weather-forecast-card__precipitation-image"
+              />
+              <span class="weather-forecast-card__temperature">0 °C</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="footer__container">
+        <span class="footer__portfolio-sign">Weather Forecast</span>
+        <div class="footer__copyrights-wrapper">
+          <span class="footer__copyright-sign">&copy;</span>
+          <span class="footer__copyright-year">2023</span>
+          <a
+            href="https://github.com/Shist/Weather-Forecast"
+            target="_blank"
+            class="footer__github-link"
+            >github
+          </a>
+        </div>
+      </div>
+    </footer>
     <script src="./scripts/script.js"></script>
   </body>
 </html>
