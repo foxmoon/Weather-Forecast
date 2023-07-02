@@ -36,7 +36,15 @@
       </header>
       <main class="main">
         <div class="main__container">
-          <div class="main__weather-widget-wrapper">
+          <img
+            src="./images/loading-spinner.svg"
+            alt="Loading"
+            class="loading-spinner"
+          />
+          <p class="hidden-element main__error-message">
+            Something went wrong!
+          </p>
+          <div class="hidden-element main__weather-widget-wrapper">
             <div class="main__curr-weather-wrapper">
               <div class="main__city-time-wrapper">
                 <span class="main__city">Minsk</span>
@@ -44,11 +52,13 @@
               </div>
               <div class="main__weather-data-wrapper">
                 <img
-                  src="./images/default-weather-icon.png"
+                  src=""
                   alt="Precipitation image"
                   class="main__precipitation-image"
                 />
-                <span class="main__precipitation-text">Cloudy</span>
+                <span class="main__precipitation-text"
+                  >Weather description</span
+                >
                 <span class="main__temperature">0 °C</span>
               </div>
               <div class="main__weather-wind-wrapper">
@@ -56,32 +66,7 @@
                 <span class="main__wind-speed-data">0.0 m/s</span>
               </div>
             </div>
-            <div class="main__weather-forecast-list-wrapper">
-              <div class="weather-forecast-card">
-                <div class="weather-forecast-card__date-time-wrapper">
-                  <span class="weather-forecast-card__date">0000-00-00</span>
-                  <span class="weather-forecast-card__time">00:00:00</span>
-                </div>
-                <img
-                  src="./images/default-weather-icon.png"
-                  alt="Precipitation image"
-                  class="weather-forecast-card__precipitation-image"
-                />
-                <span class="weather-forecast-card__temperature">0 °C</span>
-              </div>
-              <div class="weather-forecast-card">
-                <div class="weather-forecast-card__date-time-wrapper">
-                  <span class="weather-forecast-card__date">0000-00-00</span>
-                  <span class="weather-forecast-card__time">00:00:00</span>
-                </div>
-                <img
-                  src="./images/default-weather-icon.png"
-                  alt="Precipitation image"
-                  class="weather-forecast-card__precipitation-image"
-                />
-                <span class="weather-forecast-card__temperature">0 °C</span>
-              </div>
-            </div>
+            <div class="main__weather-forecast-list-wrapper"></div>
           </div>
         </div>
       </main>

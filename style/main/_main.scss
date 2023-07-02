@@ -5,7 +5,23 @@
   flex-grow: 1;
   &__container {
     @extend %default-container;
-    padding-block: 10px;
+    padding-block: 20px;
+    .loading-spinner {
+      display: block;
+      margin: 0 auto;
+      width: 500px;
+      height: 500px;
+      @media (max-width: $phone-l) {
+        width: 300px;
+        height: 300px;
+      }
+    }
+    .main__error-message {
+      @include default-span(36px, 36px, $dark-text-color);
+      text-align: center;
+      white-space: pre-line;
+      color: #aa0000;
+    }
     .main__weather-widget-wrapper {
       max-width: 800px;
       width: 100%;

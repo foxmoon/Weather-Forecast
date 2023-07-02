@@ -38,6 +38,18 @@
   font-weight: bold;
   font-style: normal;
 }
+.active-btn {
+  color: khaki !important;
+}
+
+.hidden-element {
+  display: none !important;
+}
+
+.appeared-block {
+  display: block !important;
+}
+
 .footer__container, .main__container, .header__container {
   max-width: 1920px;
   width: 100%;
@@ -96,6 +108,18 @@
   font-weight: bold;
   font-style: normal;
 }
+.active-btn {
+  color: khaki !important;
+}
+
+.hidden-element {
+  display: none !important;
+}
+
+.appeared-block {
+  display: block !important;
+}
+
 .footer__container, .main__container, .header__container {
   max-width: 1920px;
   width: 100%;
@@ -206,6 +230,18 @@
   font-weight: bold;
   font-style: normal;
 }
+.active-btn {
+  color: khaki !important;
+}
+
+.hidden-element {
+  display: none !important;
+}
+
+.appeared-block {
+  display: block !important;
+}
+
 .footer__container, .main__container, .header__container {
   max-width: 1920px;
   width: 100%;
@@ -228,7 +264,28 @@
   flex-grow: 1;
 }
 .main__container {
-  padding-block: 10px;
+  padding-block: 20px;
+}
+.main__container .loading-spinner {
+  display: block;
+  margin: 0 auto;
+  width: 500px;
+  height: 500px;
+}
+@media (max-width: 480px) {
+  .main__container .loading-spinner {
+    width: 300px;
+    height: 300px;
+  }
+}
+.main__container .main__error-message {
+  font-family: "Roboto";
+  font-size: 36px;
+  line-height: 36px;
+  color: black;
+  text-align: center;
+  white-space: pre-line;
+  color: #aa0000;
 }
 .main__container .main__weather-widget-wrapper {
   max-width: 800px;
@@ -341,6 +398,18 @@
   font-weight: bold;
   font-style: normal;
 }
+.active-btn {
+  color: khaki !important;
+}
+
+.hidden-element {
+  display: none !important;
+}
+
+.appeared-block {
+  display: block !important;
+}
+
 .footer__container, .header__container, .main__container {
   max-width: 1920px;
   width: 100%;
@@ -363,7 +432,7 @@
   background-color: #405a79;
 }
 .footer__container {
-  padding-block: 10px;
+  padding-block: 30px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -398,10 +467,6 @@
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-}
-
-.active-btn {
-  color: khaki !important;
 }
 
 .weather-forecast-card {
