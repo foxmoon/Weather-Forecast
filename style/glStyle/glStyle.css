@@ -46,10 +46,6 @@
   display: none !important;
 }
 
-.appeared-block {
-  display: block !important;
-}
-
 .footer__container, .main__container, .header__container {
   max-width: 1920px;
   width: 100%;
@@ -114,10 +110,6 @@
 
 .hidden-element {
   display: none !important;
-}
-
-.appeared-block {
-  display: block !important;
 }
 
 .footer__container, .main__container, .header__container {
@@ -238,10 +230,6 @@
   display: none !important;
 }
 
-.appeared-block {
-  display: block !important;
-}
-
 .footer__container, .main__container, .header__container {
   max-width: 1920px;
   width: 100%;
@@ -266,18 +254,6 @@
 .main__container {
   padding-block: 20px;
 }
-.main__container .loading-spinner {
-  display: block;
-  margin: 0 auto;
-  width: 500px;
-  height: 500px;
-}
-@media (max-width: 480px) {
-  .main__container .loading-spinner {
-    width: 300px;
-    height: 300px;
-  }
-}
 .main__container .main__error-message {
   font-family: "Roboto";
   font-size: 36px;
@@ -296,24 +272,35 @@
   background-color: #6b97ca;
   padding: 20px;
 }
-.main__container .main__weather-widget-wrapper .main__curr-weather-wrapper .main__city-time-wrapper {
+.main__container .main__weather-widget-wrapper .main__curr-weather-wrapper .main__city-time-wrapper,
+.main__container .main__weather-widget-wrapper .main__curr-weather-wrapper .main__latitude-longitude-wrapper {
   margin-bottom: 20px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   row-gap: 10px;
 }
-.main__container .main__weather-widget-wrapper .main__curr-weather-wrapper .main__city-time-wrapper .main__city {
+.main__container .main__weather-widget-wrapper .main__curr-weather-wrapper .main__city-time-wrapper .main__city,
+.main__container .main__weather-widget-wrapper .main__curr-weather-wrapper .main__city-time-wrapper .main__city-time,
+.main__container .main__weather-widget-wrapper .main__curr-weather-wrapper .main__city-time-wrapper .main__latitude,
+.main__container .main__weather-widget-wrapper .main__curr-weather-wrapper .main__city-time-wrapper .main__longitude,
+.main__container .main__weather-widget-wrapper .main__curr-weather-wrapper .main__latitude-longitude-wrapper .main__city,
+.main__container .main__weather-widget-wrapper .main__curr-weather-wrapper .main__latitude-longitude-wrapper .main__city-time,
+.main__container .main__weather-widget-wrapper .main__curr-weather-wrapper .main__latitude-longitude-wrapper .main__latitude,
+.main__container .main__weather-widget-wrapper .main__curr-weather-wrapper .main__latitude-longitude-wrapper .main__longitude {
   font-family: "Roboto";
   font-size: 24px;
   line-height: 24px;
   color: white;
 }
-.main__container .main__weather-widget-wrapper .main__curr-weather-wrapper .main__city-time-wrapper .main__city-time {
-  font-family: "Roboto";
-  font-size: 24px;
-  line-height: 24px;
-  color: white;
+@media (max-width: 360px) {
+  .main__container .main__weather-widget-wrapper .main__curr-weather-wrapper .main__city-time-wrapper .main__latitude,
+  .main__container .main__weather-widget-wrapper .main__curr-weather-wrapper .main__city-time-wrapper .main__longitude,
+  .main__container .main__weather-widget-wrapper .main__curr-weather-wrapper .main__latitude-longitude-wrapper .main__latitude,
+  .main__container .main__weather-widget-wrapper .main__curr-weather-wrapper .main__latitude-longitude-wrapper .main__longitude {
+    font-size: 22px;
+    line-height: 22px;
+  }
 }
 .main__container .main__weather-widget-wrapper .main__curr-weather-wrapper .main__weather-data-wrapper {
   margin-bottom: 20px;
@@ -326,12 +313,7 @@
   max-width: 100px;
   max-height: 100px;
 }
-.main__container .main__weather-widget-wrapper .main__curr-weather-wrapper .main__weather-data-wrapper .main__precipitation-text {
-  font-family: "Roboto";
-  font-size: 28px;
-  line-height: 28px;
-  color: white;
-}
+.main__container .main__weather-widget-wrapper .main__curr-weather-wrapper .main__weather-data-wrapper .main__precipitation-text,
 .main__container .main__weather-widget-wrapper .main__curr-weather-wrapper .main__weather-data-wrapper .main__temperature {
   font-family: "Roboto";
   font-size: 28px;
@@ -342,12 +324,7 @@
   display: flex;
   justify-content: space-around;
 }
-.main__container .main__weather-widget-wrapper .main__curr-weather-wrapper .main__weather-wind-wrapper .main__wind-speed-label {
-  font-family: "Roboto";
-  font-size: 26px;
-  line-height: 26px;
-  color: white;
-}
+.main__container .main__weather-widget-wrapper .main__curr-weather-wrapper .main__weather-wind-wrapper .main__wind-speed-label,
 .main__container .main__weather-widget-wrapper .main__curr-weather-wrapper .main__weather-wind-wrapper .main__wind-speed-data {
   font-family: "Roboto";
   font-size: 26px;
@@ -406,10 +383,6 @@
   display: none !important;
 }
 
-.appeared-block {
-  display: block !important;
-}
-
 .footer__container, .header__container, .main__container {
   max-width: 1920px;
   width: 100%;
@@ -438,12 +411,7 @@
   align-items: center;
   row-gap: 10px;
 }
-.footer__container .footer__project-sign {
-  font-family: "Roboto";
-  font-size: 18px;
-  line-height: 18px;
-  color: white;
-}
+.footer__container .footer__project-sign,
 .footer__container .footer__copyright-sign-year {
   font-family: "Roboto";
   font-size: 18px;
@@ -469,6 +437,43 @@
   min-height: 100vh;
 }
 
+.loading-info-block {
+  text-align: center;
+}
+.loading-info-block__text-info {
+  width: 90%;
+  margin: 0 auto;
+  white-space: pre-line;
+  font-family: "Roboto";
+  font-size: 56px;
+  line-height: 56px;
+  color: black;
+}
+@media (max-width: 480px) {
+  .loading-info-block__text-info {
+    font-size: 36px;
+    line-height: 36px;
+  }
+}
+.loading-info-block__spinner {
+  display: block;
+  margin: 0 auto;
+  width: 500px;
+  height: 500px;
+}
+@media (max-width: 576px) {
+  .loading-info-block__spinner {
+    width: 400px;
+    height: 400px;
+  }
+}
+@media (max-width: 480px) {
+  .loading-info-block__spinner {
+    width: 300px;
+    height: 300px;
+  }
+}
+
 .weather-forecast-card {
   max-height: 100px;
   padding: 15px;
@@ -483,25 +488,7 @@
   flex-direction: column;
   row-gap: 10px;
 }
-.weather-forecast-card .weather-forecast-card__date-time-wrapper .weather-forecast-card__date {
-  font-family: "Roboto";
-  font-size: 24px;
-  line-height: 24px;
-  color: black;
-  text-align: start;
-}
-@media (max-width: 480px) {
-  .weather-forecast-card .weather-forecast-card__date-time-wrapper .weather-forecast-card__date {
-    font-size: 18px;
-    line-height: 18px;
-  }
-}
-@media (max-width: 360px) {
-  .weather-forecast-card .weather-forecast-card__date-time-wrapper .weather-forecast-card__date {
-    font-size: 16px;
-    line-height: 16px;
-  }
-}
+.weather-forecast-card .weather-forecast-card__date-time-wrapper .weather-forecast-card__date,
 .weather-forecast-card .weather-forecast-card__date-time-wrapper .weather-forecast-card__time {
   font-family: "Roboto";
   font-size: 24px;
@@ -510,15 +497,17 @@
   text-align: start;
 }
 @media (max-width: 480px) {
+  .weather-forecast-card .weather-forecast-card__date-time-wrapper .weather-forecast-card__date,
   .weather-forecast-card .weather-forecast-card__date-time-wrapper .weather-forecast-card__time {
     font-size: 18px;
     line-height: 18px;
   }
 }
 @media (max-width: 360px) {
+  .weather-forecast-card .weather-forecast-card__date-time-wrapper .weather-forecast-card__date,
   .weather-forecast-card .weather-forecast-card__date-time-wrapper .weather-forecast-card__time {
-    font-size: 16px;
-    line-height: 16px;
+    font-size: 14px;
+    line-height: 14px;
   }
 }
 .weather-forecast-card .weather-forecast-card__precipitation-image {

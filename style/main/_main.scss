@@ -6,16 +6,6 @@
   &__container {
     @extend %default-container;
     padding-block: 20px;
-    .loading-spinner {
-      display: block;
-      margin: 0 auto;
-      width: 500px;
-      height: 500px;
-      @media (max-width: $phone-l) {
-        width: 300px;
-        height: 300px;
-      }
-    }
     .main__error-message {
       @include default-span(36px, 36px, $dark-text-color);
       text-align: center;
@@ -29,17 +19,25 @@
       .main__curr-weather-wrapper {
         background-color: $blue-color;
         padding: 20px;
-        .main__city-time-wrapper {
+        .main__city-time-wrapper,
+        .main__latitude-longitude-wrapper {
           margin-bottom: 20px;
           display: flex;
           flex-direction: column;
           align-items: flex-start;
           row-gap: 10px;
-          .main__city {
+          .main__city,
+          .main__city-time,
+          .main__latitude,
+          .main__longitude {
             @include default-span(24px, 24px, $light-text-color);
           }
-          .main__city-time {
-            @include default-span(24px, 24px, $light-text-color);
+          .main__latitude,
+          .main__longitude {
+            @media (max-width: $phone-m) {
+              font-size: 22px;
+              line-height: 22px;
+            }
           }
         }
         .main__weather-data-wrapper {
@@ -52,9 +50,7 @@
             max-width: 100px;
             max-height: 100px;
           }
-          .main__precipitation-text {
-            @include default-span(28px, 28px, $light-text-color);
-          }
+          .main__precipitation-text,
           .main__temperature {
             @include default-span(28px, 28px, $light-text-color);
           }
@@ -62,9 +58,7 @@
         .main__weather-wind-wrapper {
           display: flex;
           justify-content: space-around;
-          .main__wind-speed-label {
-            @include default-span(26px, 26px, $light-text-color);
-          }
+          .main__wind-speed-label,
           .main__wind-speed-data {
             @include default-span(26px, 26px, $light-text-color);
           }

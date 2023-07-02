@@ -9,11 +9,6 @@
   display: none !important;
 }
 
-// This class is needed to make elements appear (by adding this class)
-.appeared-block {
-  display: block !important;
-}
-
 // Default settings of container for content (margin-bottom is possible)
 %default-container {
   max-width: 1920px;

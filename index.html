@@ -36,11 +36,16 @@
       </header>
       <main class="main">
         <div class="main__container">
-          <img
-            src="./images/loading-spinner.svg"
-            alt="Loading"
-            class="loading-spinner"
-          />
+          <div class="loading-info-block">
+            <p class="loading-info-block__text-info">
+              Getting weather data from the server...
+            </p>
+            <img
+              src="./images/loading-spinner.svg"
+              alt="Loading"
+              class="loading-info-block__spinner"
+            />
+          </div>
           <p class="hidden-element main__error-message">
             Something went wrong!
           </p>
@@ -49,6 +54,10 @@
               <div class="main__city-time-wrapper">
                 <span class="main__city">Minsk</span>
                 <span class="main__city-time">00:00</span>
+              </div>
+              <div class="hidden-element main__latitude-longitude-wrapper">
+                <span class="main__latitude">Latitude:</span>
+                <span class="main__longitude">Longitude:</span>
               </div>
               <div class="main__weather-data-wrapper">
                 <img
