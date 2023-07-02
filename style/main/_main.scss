@@ -1,0 +1,62 @@
+@import "../glStyle/vars";
+@import "../glStyle/templates";
+
+.main {
+  flex-grow: 1;
+  &__container {
+    @extend %default-container;
+    padding-block: 10px;
+    .main__weather-widget-wrapper {
+      max-width: 800px;
+      width: 100%;
+      margin: 0 auto;
+      .main__curr-weather-wrapper {
+        background-color: $blue-color;
+        padding: 20px;
+        .main__city-time-wrapper {
+          margin-bottom: 20px;
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          row-gap: 10px;
+          .main__city {
+            @include default-span(24px, 24px, $light-text-color);
+          }
+          .main__city-time {
+            @include default-span(24px, 24px, $light-text-color);
+          }
+        }
+        .main__weather-data-wrapper {
+          margin-bottom: 20px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          row-gap: 15px;
+          .main__precipitation-image {
+            max-width: 100px;
+            max-height: 100px;
+          }
+          .main__precipitation-text {
+            @include default-span(28px, 28px, $light-text-color);
+          }
+          .main__temperature {
+            @include default-span(28px, 28px, $light-text-color);
+          }
+        }
+        .main__weather-wind-wrapper {
+          display: flex;
+          justify-content: space-around;
+          .main__wind-speed-label {
+            @include default-span(26px, 26px, $light-text-color);
+          }
+          .main__wind-speed-data {
+            @include default-span(26px, 26px, $light-text-color);
+          }
+        }
+      }
+      .main__weather-forecast-list-wrapper {
+        border: 1px solid $blue-color;
+      }
+    }
+  }
+}

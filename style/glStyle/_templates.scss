@@ -1,0 +1,24 @@
+@import "./vars";
+
+// Default settings of container for content (margin-bottom is possible)
+%default-container {
+  max-width: 1920px;
+  width: 100%;
+  padding-inline: 20px;
+  margin-top: 0;
+  margin-inline: auto;
+  @media (max-width: $tablet-l) {
+    padding-inline: 15px;
+  }
+  @media (max-width: $phone-l) {
+    padding-inline: 10px;
+  }
+}
+
+// Default settings of text; $f-s - size; $l-h - line height; $c - text color
+@mixin default-span($f-s, $l-h, $c) {
+  font-family: $font;
+  font-size: $f-s;
+  line-height: $l-h;
+  color: $c;
+}

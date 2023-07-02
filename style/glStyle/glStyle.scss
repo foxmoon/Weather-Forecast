@@ -1,0 +1,48 @@
+@import "./vars";
+@import "./templates";
+@import "../header/header";
+@import "../main/main";
+@import "../footer/footer";
+
+.global-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.active-btn {
+  color: $active-text-color !important;
+}
+
+.weather-forecast-card {
+  max-height: 100px;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid $blue-color;
+  .weather-forecast-card__date-time-wrapper {
+    flex-basis: 34%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    .weather-forecast-card__date {
+      @include default-span(24px, 24px, $dark-text-color);
+      text-align: start;
+    }
+    .weather-forecast-card__time {
+      @include default-span(24px, 24px, $dark-text-color);
+      text-align: start;
+    }
+  }
+  .weather-forecast-card__precipitation-image {
+    flex-basis: 33%;
+    max-width: 100px;
+    max-height: 100px;
+  }
+  .weather-forecast-card__temperature {
+    flex-basis: 33%;
+    @include default-span(24px, 24px, $dark-text-color);
+    text-align: end;
+  }
+}

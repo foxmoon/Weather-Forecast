@@ -1,0 +1,32 @@
+@import "../glStyle/vars";
+@import "../glStyle/templates";
+
+.footer {
+  background-color: $dark-blue-color;
+  &__container {
+    @extend %default-container;
+    padding-block: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+    .footer__project-sign {
+      @include default-span(18px, 18px, $light-text-color);
+    }
+    .footer__copyright-sign-year {
+      @include default-span(18px, 18px, $light-text-color);
+    }
+    .footer__github-link {
+      font-family: $font;
+      font-size: 18px;
+      line-height: 18px;
+      color: $light-text-color;
+      text-decoration: none;
+      transition: 0.3s;
+      &:hover {
+        transform: scale(1.1);
+        color: $active-text-color;
+      }
+    }
+  }
+}

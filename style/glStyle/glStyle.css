@@ -1,1 +1,426 @@
-/*# sourceMappingURL=glStyle.css.map */
+/* font "Roboto", normal, 400 */
+@font-face {
+  font-family: "Roboto";
+  /* IE9 Compat Modes */
+  src: url(../../fonts/Roboto-Regular/Roboto-Regular.eot);
+  /* Trying to find out that font in system */
+  src: local("Roboto"), url(../../fonts/Roboto-Regular/Roboto-Regular.eot?#iefix) format("embedded-opentype"), url(../../fonts/Roboto-Regular/Roboto-Regular.otf) format("otf"), url(../../fonts/Roboto-Regular/Roboto-Regular.svg#Roboto-Regular) format("svg"), url(../../fonts/Roboto-Regular/Roboto-Regular.ttf) format("truetype"), url(../../fonts/Roboto-Regular/Roboto-Regular.woff) format("woff"), url(../../fonts/Roboto-Regular/Roboto-Regular.woff2) format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+/* font "Roboto", bold, 700 */
+@font-face {
+  font-family: "Roboto";
+  /* IE9 Compat Modes */
+  src: url(../../fonts/Roboto-Bold/Roboto-Bold.eot);
+  /* Trying to find out that font in system */
+  src: local("Roboto"), url(../../fonts/Roboto-Bold/Roboto-Bold.eot?#iefix) format("embedded-opentype"), url(../../fonts/Roboto-Bold/Roboto-Bold.otf) format("otf"), url(../../fonts/Roboto-Bold/Roboto-Bold.svg#Roboto-Bold) format("svg"), url(../../fonts/Roboto-Bold/Roboto-Bold.ttf) format("truetype"), url(../../fonts/Roboto-Bold/Roboto-Bold.woff) format("woff"), url(../../fonts/Roboto-Bold/Roboto-Bold.woff2) format("woff2");
+  font-weight: bold;
+  font-style: normal;
+}
+/* font "Roboto", normal, 400 */
+@font-face {
+  font-family: "Roboto";
+  /* IE9 Compat Modes */
+  src: url(../../fonts/Roboto-Regular/Roboto-Regular.eot);
+  /* Trying to find out that font in system */
+  src: local("Roboto"), url(../../fonts/Roboto-Regular/Roboto-Regular.eot?#iefix) format("embedded-opentype"), url(../../fonts/Roboto-Regular/Roboto-Regular.otf) format("otf"), url(../../fonts/Roboto-Regular/Roboto-Regular.svg#Roboto-Regular) format("svg"), url(../../fonts/Roboto-Regular/Roboto-Regular.ttf) format("truetype"), url(../../fonts/Roboto-Regular/Roboto-Regular.woff) format("woff"), url(../../fonts/Roboto-Regular/Roboto-Regular.woff2) format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+/* font "Roboto", bold, 700 */
+@font-face {
+  font-family: "Roboto";
+  /* IE9 Compat Modes */
+  src: url(../../fonts/Roboto-Bold/Roboto-Bold.eot);
+  /* Trying to find out that font in system */
+  src: local("Roboto"), url(../../fonts/Roboto-Bold/Roboto-Bold.eot?#iefix) format("embedded-opentype"), url(../../fonts/Roboto-Bold/Roboto-Bold.otf) format("otf"), url(../../fonts/Roboto-Bold/Roboto-Bold.svg#Roboto-Bold) format("svg"), url(../../fonts/Roboto-Bold/Roboto-Bold.ttf) format("truetype"), url(../../fonts/Roboto-Bold/Roboto-Bold.woff) format("woff"), url(../../fonts/Roboto-Bold/Roboto-Bold.woff2) format("woff2");
+  font-weight: bold;
+  font-style: normal;
+}
+.footer__container, .main__container, .header__container {
+  max-width: 1920px;
+  width: 100%;
+  padding-inline: 20px;
+  margin-top: 0;
+  margin-inline: auto;
+}
+@media (max-width: 768px) {
+  .footer__container, .main__container, .header__container {
+    padding-inline: 15px;
+  }
+}
+@media (max-width: 480px) {
+  .footer__container, .main__container, .header__container {
+    padding-inline: 10px;
+  }
+}
+
+/* font "Roboto", normal, 400 */
+@font-face {
+  font-family: "Roboto";
+  /* IE9 Compat Modes */
+  src: url(../../fonts/Roboto-Regular/Roboto-Regular.eot);
+  /* Trying to find out that font in system */
+  src: local("Roboto"), url(../../fonts/Roboto-Regular/Roboto-Regular.eot?#iefix) format("embedded-opentype"), url(../../fonts/Roboto-Regular/Roboto-Regular.otf) format("otf"), url(../../fonts/Roboto-Regular/Roboto-Regular.svg#Roboto-Regular) format("svg"), url(../../fonts/Roboto-Regular/Roboto-Regular.ttf) format("truetype"), url(../../fonts/Roboto-Regular/Roboto-Regular.woff) format("woff"), url(../../fonts/Roboto-Regular/Roboto-Regular.woff2) format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+/* font "Roboto", bold, 700 */
+@font-face {
+  font-family: "Roboto";
+  /* IE9 Compat Modes */
+  src: url(../../fonts/Roboto-Bold/Roboto-Bold.eot);
+  /* Trying to find out that font in system */
+  src: local("Roboto"), url(../../fonts/Roboto-Bold/Roboto-Bold.eot?#iefix) format("embedded-opentype"), url(../../fonts/Roboto-Bold/Roboto-Bold.otf) format("otf"), url(../../fonts/Roboto-Bold/Roboto-Bold.svg#Roboto-Bold) format("svg"), url(../../fonts/Roboto-Bold/Roboto-Bold.ttf) format("truetype"), url(../../fonts/Roboto-Bold/Roboto-Bold.woff) format("woff"), url(../../fonts/Roboto-Bold/Roboto-Bold.woff2) format("woff2");
+  font-weight: bold;
+  font-style: normal;
+}
+/* font "Roboto", normal, 400 */
+@font-face {
+  font-family: "Roboto";
+  /* IE9 Compat Modes */
+  src: url(../../fonts/Roboto-Regular/Roboto-Regular.eot);
+  /* Trying to find out that font in system */
+  src: local("Roboto"), url(../../fonts/Roboto-Regular/Roboto-Regular.eot?#iefix) format("embedded-opentype"), url(../../fonts/Roboto-Regular/Roboto-Regular.otf) format("otf"), url(../../fonts/Roboto-Regular/Roboto-Regular.svg#Roboto-Regular) format("svg"), url(../../fonts/Roboto-Regular/Roboto-Regular.ttf) format("truetype"), url(../../fonts/Roboto-Regular/Roboto-Regular.woff) format("woff"), url(../../fonts/Roboto-Regular/Roboto-Regular.woff2) format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+/* font "Roboto", bold, 700 */
+@font-face {
+  font-family: "Roboto";
+  /* IE9 Compat Modes */
+  src: url(../../fonts/Roboto-Bold/Roboto-Bold.eot);
+  /* Trying to find out that font in system */
+  src: local("Roboto"), url(../../fonts/Roboto-Bold/Roboto-Bold.eot?#iefix) format("embedded-opentype"), url(../../fonts/Roboto-Bold/Roboto-Bold.otf) format("otf"), url(../../fonts/Roboto-Bold/Roboto-Bold.svg#Roboto-Bold) format("svg"), url(../../fonts/Roboto-Bold/Roboto-Bold.ttf) format("truetype"), url(../../fonts/Roboto-Bold/Roboto-Bold.woff) format("woff"), url(../../fonts/Roboto-Bold/Roboto-Bold.woff2) format("woff2");
+  font-weight: bold;
+  font-style: normal;
+}
+.footer__container, .main__container, .header__container {
+  max-width: 1920px;
+  width: 100%;
+  padding-inline: 20px;
+  margin-top: 0;
+  margin-inline: auto;
+}
+@media (max-width: 768px) {
+  .footer__container, .main__container, .header__container {
+    padding-inline: 15px;
+  }
+}
+@media (max-width: 480px) {
+  .footer__container, .main__container, .header__container {
+    padding-inline: 10px;
+  }
+}
+
+.header {
+  background-color: #a6c0df;
+}
+.header__container .header__nav {
+  padding: 10px;
+}
+.header__container .header__nav .header__nav-list {
+  display: flex;
+  justify-content: space-evenly;
+}
+.header__container .header__nav .header__nav-list .header__nav-list-item .header__nav-list-item-btn {
+  max-width: 200px;
+  width: 100%;
+  padding: 15px;
+  font-family: "Roboto";
+  font-size: 24px;
+  line-height: 24px;
+  text-align: center;
+  color: white;
+  background-color: #6b97ca;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.header__container .header__nav .header__nav-list .header__nav-list-item .header__nav-list-item-btn:hover {
+  transform: scale(1.1);
+  background-color: #405a79;
+  color: khaki;
+}
+
+/* font "Roboto", normal, 400 */
+@font-face {
+  font-family: "Roboto";
+  /* IE9 Compat Modes */
+  src: url(../../fonts/Roboto-Regular/Roboto-Regular.eot);
+  /* Trying to find out that font in system */
+  src: local("Roboto"), url(../../fonts/Roboto-Regular/Roboto-Regular.eot?#iefix) format("embedded-opentype"), url(../../fonts/Roboto-Regular/Roboto-Regular.otf) format("otf"), url(../../fonts/Roboto-Regular/Roboto-Regular.svg#Roboto-Regular) format("svg"), url(../../fonts/Roboto-Regular/Roboto-Regular.ttf) format("truetype"), url(../../fonts/Roboto-Regular/Roboto-Regular.woff) format("woff"), url(../../fonts/Roboto-Regular/Roboto-Regular.woff2) format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+/* font "Roboto", bold, 700 */
+@font-face {
+  font-family: "Roboto";
+  /* IE9 Compat Modes */
+  src: url(../../fonts/Roboto-Bold/Roboto-Bold.eot);
+  /* Trying to find out that font in system */
+  src: local("Roboto"), url(../../fonts/Roboto-Bold/Roboto-Bold.eot?#iefix) format("embedded-opentype"), url(../../fonts/Roboto-Bold/Roboto-Bold.otf) format("otf"), url(../../fonts/Roboto-Bold/Roboto-Bold.svg#Roboto-Bold) format("svg"), url(../../fonts/Roboto-Bold/Roboto-Bold.ttf) format("truetype"), url(../../fonts/Roboto-Bold/Roboto-Bold.woff) format("woff"), url(../../fonts/Roboto-Bold/Roboto-Bold.woff2) format("woff2");
+  font-weight: bold;
+  font-style: normal;
+}
+/* font "Roboto", normal, 400 */
+@font-face {
+  font-family: "Roboto";
+  /* IE9 Compat Modes */
+  src: url(../../fonts/Roboto-Regular/Roboto-Regular.eot);
+  /* Trying to find out that font in system */
+  src: local("Roboto"), url(../../fonts/Roboto-Regular/Roboto-Regular.eot?#iefix) format("embedded-opentype"), url(../../fonts/Roboto-Regular/Roboto-Regular.otf) format("otf"), url(../../fonts/Roboto-Regular/Roboto-Regular.svg#Roboto-Regular) format("svg"), url(../../fonts/Roboto-Regular/Roboto-Regular.ttf) format("truetype"), url(../../fonts/Roboto-Regular/Roboto-Regular.woff) format("woff"), url(../../fonts/Roboto-Regular/Roboto-Regular.woff2) format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+/* font "Roboto", bold, 700 */
+@font-face {
+  font-family: "Roboto";
+  /* IE9 Compat Modes */
+  src: url(../../fonts/Roboto-Bold/Roboto-Bold.eot);
+  /* Trying to find out that font in system */
+  src: local("Roboto"), url(../../fonts/Roboto-Bold/Roboto-Bold.eot?#iefix) format("embedded-opentype"), url(../../fonts/Roboto-Bold/Roboto-Bold.otf) format("otf"), url(../../fonts/Roboto-Bold/Roboto-Bold.svg#Roboto-Bold) format("svg"), url(../../fonts/Roboto-Bold/Roboto-Bold.ttf) format("truetype"), url(../../fonts/Roboto-Bold/Roboto-Bold.woff) format("woff"), url(../../fonts/Roboto-Bold/Roboto-Bold.woff2) format("woff2");
+  font-weight: bold;
+  font-style: normal;
+}
+.footer__container, .main__container, .header__container {
+  max-width: 1920px;
+  width: 100%;
+  padding-inline: 20px;
+  margin-top: 0;
+  margin-inline: auto;
+}
+@media (max-width: 768px) {
+  .footer__container, .main__container, .header__container {
+    padding-inline: 15px;
+  }
+}
+@media (max-width: 480px) {
+  .footer__container, .main__container, .header__container {
+    padding-inline: 10px;
+  }
+}
+
+.main {
+  flex-grow: 1;
+}
+.main__container {
+  padding-block: 10px;
+}
+.main__container .main__weather-widget-wrapper {
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+}
+.main__container .main__weather-widget-wrapper .main__curr-weather-wrapper {
+  background-color: #6b97ca;
+  padding: 20px;
+}
+.main__container .main__weather-widget-wrapper .main__curr-weather-wrapper .main__city-time-wrapper {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  row-gap: 10px;
+}
+.main__container .main__weather-widget-wrapper .main__curr-weather-wrapper .main__city-time-wrapper .main__city {
+  font-family: "Roboto";
+  font-size: 24px;
+  line-height: 24px;
+  color: white;
+}
+.main__container .main__weather-widget-wrapper .main__curr-weather-wrapper .main__city-time-wrapper .main__city-time {
+  font-family: "Roboto";
+  font-size: 24px;
+  line-height: 24px;
+  color: white;
+}
+.main__container .main__weather-widget-wrapper .main__curr-weather-wrapper .main__weather-data-wrapper {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 15px;
+}
+.main__container .main__weather-widget-wrapper .main__curr-weather-wrapper .main__weather-data-wrapper .main__precipitation-image {
+  max-width: 100px;
+  max-height: 100px;
+}
+.main__container .main__weather-widget-wrapper .main__curr-weather-wrapper .main__weather-data-wrapper .main__precipitation-text {
+  font-family: "Roboto";
+  font-size: 28px;
+  line-height: 28px;
+  color: white;
+}
+.main__container .main__weather-widget-wrapper .main__curr-weather-wrapper .main__weather-data-wrapper .main__temperature {
+  font-family: "Roboto";
+  font-size: 28px;
+  line-height: 28px;
+  color: white;
+}
+.main__container .main__weather-widget-wrapper .main__curr-weather-wrapper .main__weather-wind-wrapper {
+  display: flex;
+  justify-content: space-around;
+}
+.main__container .main__weather-widget-wrapper .main__curr-weather-wrapper .main__weather-wind-wrapper .main__wind-speed-label {
+  font-family: "Roboto";
+  font-size: 26px;
+  line-height: 26px;
+  color: white;
+}
+.main__container .main__weather-widget-wrapper .main__curr-weather-wrapper .main__weather-wind-wrapper .main__wind-speed-data {
+  font-family: "Roboto";
+  font-size: 26px;
+  line-height: 26px;
+  color: white;
+}
+.main__container .main__weather-widget-wrapper .main__weather-forecast-list-wrapper {
+  border: 1px solid #6b97ca;
+}
+
+/* font "Roboto", normal, 400 */
+@font-face {
+  font-family: "Roboto";
+  /* IE9 Compat Modes */
+  src: url(../../fonts/Roboto-Regular/Roboto-Regular.eot);
+  /* Trying to find out that font in system */
+  src: local("Roboto"), url(../../fonts/Roboto-Regular/Roboto-Regular.eot?#iefix) format("embedded-opentype"), url(../../fonts/Roboto-Regular/Roboto-Regular.otf) format("otf"), url(../../fonts/Roboto-Regular/Roboto-Regular.svg#Roboto-Regular) format("svg"), url(../../fonts/Roboto-Regular/Roboto-Regular.ttf) format("truetype"), url(../../fonts/Roboto-Regular/Roboto-Regular.woff) format("woff"), url(../../fonts/Roboto-Regular/Roboto-Regular.woff2) format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+/* font "Roboto", bold, 700 */
+@font-face {
+  font-family: "Roboto";
+  /* IE9 Compat Modes */
+  src: url(../../fonts/Roboto-Bold/Roboto-Bold.eot);
+  /* Trying to find out that font in system */
+  src: local("Roboto"), url(../../fonts/Roboto-Bold/Roboto-Bold.eot?#iefix) format("embedded-opentype"), url(../../fonts/Roboto-Bold/Roboto-Bold.otf) format("otf"), url(../../fonts/Roboto-Bold/Roboto-Bold.svg#Roboto-Bold) format("svg"), url(../../fonts/Roboto-Bold/Roboto-Bold.ttf) format("truetype"), url(../../fonts/Roboto-Bold/Roboto-Bold.woff) format("woff"), url(../../fonts/Roboto-Bold/Roboto-Bold.woff2) format("woff2");
+  font-weight: bold;
+  font-style: normal;
+}
+/* font "Roboto", normal, 400 */
+@font-face {
+  font-family: "Roboto";
+  /* IE9 Compat Modes */
+  src: url(../../fonts/Roboto-Regular/Roboto-Regular.eot);
+  /* Trying to find out that font in system */
+  src: local("Roboto"), url(../../fonts/Roboto-Regular/Roboto-Regular.eot?#iefix) format("embedded-opentype"), url(../../fonts/Roboto-Regular/Roboto-Regular.otf) format("otf"), url(../../fonts/Roboto-Regular/Roboto-Regular.svg#Roboto-Regular) format("svg"), url(../../fonts/Roboto-Regular/Roboto-Regular.ttf) format("truetype"), url(../../fonts/Roboto-Regular/Roboto-Regular.woff) format("woff"), url(../../fonts/Roboto-Regular/Roboto-Regular.woff2) format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+/* font "Roboto", bold, 700 */
+@font-face {
+  font-family: "Roboto";
+  /* IE9 Compat Modes */
+  src: url(../../fonts/Roboto-Bold/Roboto-Bold.eot);
+  /* Trying to find out that font in system */
+  src: local("Roboto"), url(../../fonts/Roboto-Bold/Roboto-Bold.eot?#iefix) format("embedded-opentype"), url(../../fonts/Roboto-Bold/Roboto-Bold.otf) format("otf"), url(../../fonts/Roboto-Bold/Roboto-Bold.svg#Roboto-Bold) format("svg"), url(../../fonts/Roboto-Bold/Roboto-Bold.ttf) format("truetype"), url(../../fonts/Roboto-Bold/Roboto-Bold.woff) format("woff"), url(../../fonts/Roboto-Bold/Roboto-Bold.woff2) format("woff2");
+  font-weight: bold;
+  font-style: normal;
+}
+.footer__container, .header__container, .main__container {
+  max-width: 1920px;
+  width: 100%;
+  padding-inline: 20px;
+  margin-top: 0;
+  margin-inline: auto;
+}
+@media (max-width: 768px) {
+  .footer__container, .header__container, .main__container {
+    padding-inline: 15px;
+  }
+}
+@media (max-width: 480px) {
+  .footer__container, .header__container, .main__container {
+    padding-inline: 10px;
+  }
+}
+
+.footer {
+  background-color: #405a79;
+}
+.footer__container {
+  padding-block: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 10px;
+}
+.footer__container .footer__project-sign {
+  font-family: "Roboto";
+  font-size: 18px;
+  line-height: 18px;
+  color: white;
+}
+.footer__container .footer__copyright-sign-year {
+  font-family: "Roboto";
+  font-size: 18px;
+  line-height: 18px;
+  color: white;
+}
+.footer__container .footer__github-link {
+  font-family: "Roboto";
+  font-size: 18px;
+  line-height: 18px;
+  color: white;
+  text-decoration: none;
+  transition: 0.3s;
+}
+.footer__container .footer__github-link:hover {
+  transform: scale(1.1);
+  color: khaki;
+}
+
+.global-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.active-btn {
+  color: khaki !important;
+}
+
+.weather-forecast-card {
+  max-height: 100px;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #6b97ca;
+}
+.weather-forecast-card .weather-forecast-card__date-time-wrapper {
+  flex-basis: 34%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+.weather-forecast-card .weather-forecast-card__date-time-wrapper .weather-forecast-card__date {
+  font-family: "Roboto";
+  font-size: 24px;
+  line-height: 24px;
+  color: black;
+  text-align: start;
+}
+.weather-forecast-card .weather-forecast-card__date-time-wrapper .weather-forecast-card__time {
+  font-family: "Roboto";
+  font-size: 24px;
+  line-height: 24px;
+  color: black;
+  text-align: start;
+}
+.weather-forecast-card .weather-forecast-card__precipitation-image {
+  flex-basis: 33%;
+  max-width: 100px;
+  max-height: 100px;
+}
+.weather-forecast-card .weather-forecast-card__temperature {
+  flex-basis: 33%;
+  font-family: "Roboto";
+  font-size: 24px;
+  line-height: 24px;
+  color: black;
+  text-align: end;
+}/*# sourceMappingURL=glStyle.css.map */

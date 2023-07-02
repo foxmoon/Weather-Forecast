@@ -1,0 +1,71 @@
+/* font "Roboto", normal, 400 */
+@font-face {
+  font-family: "Roboto";
+  /* IE9 Compat Modes */
+  src: url(../../fonts/Roboto-Regular/Roboto-Regular.eot);
+  /* Trying to find out that font in system */
+  src: local("Roboto"),
+    /* IE6-IE8 */ url(../../fonts/Roboto-Regular/Roboto-Regular.eot?#iefix)
+      format("embedded-opentype"),
+    /* Safari, Android, iOS */
+      url(../../fonts/Roboto-Regular/Roboto-Regular.otf) format("otf"),
+    /* Legacy iOS */
+      url(../../fonts/Roboto-Regular/Roboto-Regular.svg#Roboto-Regular)
+      format("svg"),
+    /* Safari, Android, iOS */
+      url(../../fonts/Roboto-Regular/Roboto-Regular.ttf) format("truetype"),
+    /* Modern Browsers */ url(../../fonts/Roboto-Regular/Roboto-Regular.woff)
+      format("woff"),
+    /* Modern Browsers */ url(../../fonts/Roboto-Regular/Roboto-Regular.woff2)
+      format("woff2");
+  font-weight: normal; // Same as "font-weight: 400"
+  font-style: normal;
+}
+
+/* font "Roboto", bold, 700 */
+@font-face {
+  font-family: "Roboto";
+  /* IE9 Compat Modes */
+  src: url(../../fonts/Roboto-Bold/Roboto-Bold.eot);
+  /* Trying to find out that font in system */
+  src: local("Roboto"),
+    /* IE6-IE8 */ url(../../fonts/Roboto-Bold/Roboto-Bold.eot?#iefix)
+      format("embedded-opentype"),
+    /* Safari, Android, iOS */ url(../../fonts/Roboto-Bold/Roboto-Bold.otf)
+      format("otf"),
+    /* Legacy iOS */ url(../../fonts/Roboto-Bold/Roboto-Bold.svg#Roboto-Bold)
+      format("svg"),
+    /* Safari, Android, iOS */ url(../../fonts/Roboto-Bold/Roboto-Bold.ttf)
+      format("truetype"),
+    /* Modern Browsers */ url(../../fonts/Roboto-Bold/Roboto-Bold.woff)
+      format("woff"),
+    /* Modern Browsers */ url(../../fonts/Roboto-Bold/Roboto-Bold.woff2)
+      format("woff2");
+  font-weight: bold; // Same as "font-weight: 700"
+  font-style: normal;
+}
+
+// Fonts
+$font: "Roboto";
+
+// Main colors
+$blue-color: #6b97ca;
+$light-blue-color: #a6c0df;
+$dark-blue-color: #405a79;
+$light-text-color: white;
+$dark-text-color: black;
+$active-text-color: khaki;
+
+// Default checkpoints for adaptive
+$pc-l: 1440px;
+$pc-m: 1400px;
+$pc-s: 1280px;
+$laptop-l: 1024px;
+$laptop-m: 960px;
+$laptop-s: 864px;
+$tablet-l: 768px;
+$tablet-m: 640px;
+$tablet-s: 576px;
+$phone-l: 480px;
+$phone-m: 360px;
+$phone-s: 320px;
