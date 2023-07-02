@@ -29,10 +29,26 @@
     .weather-forecast-card__date {
       @include default-span(24px, 24px, $dark-text-color);
       text-align: start;
+      @media (max-width: $phone-l) {
+        font-size: 18px;
+        line-height: 18px;
+      }
+      @media (max-width: $phone-m) {
+        font-size: 16px;
+        line-height: 16px;
+      }
     }
     .weather-forecast-card__time {
       @include default-span(24px, 24px, $dark-text-color);
       text-align: start;
+      @media (max-width: $phone-l) {
+        font-size: 18px;
+        line-height: 18px;
+      }
+      @media (max-width: $phone-m) {
+        font-size: 16px;
+        line-height: 16px;
+      }
     }
   }
   .weather-forecast-card__precipitation-image {

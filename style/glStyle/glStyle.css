@@ -124,9 +124,16 @@
   display: flex;
   justify-content: space-evenly;
 }
+@media (max-width: 480px) {
+  .header__container .header__nav .header__nav-list {
+    justify-content: space-between;
+  }
+}
 .header__container .header__nav .header__nav-list .header__nav-list-item .header__nav-list-item-btn {
   max-width: 200px;
   width: 100%;
+  max-height: 80px;
+  height: 100%;
   padding: 15px;
   font-family: "Roboto";
   font-size: 24px;
@@ -143,6 +150,20 @@
   transform: scale(1.1);
   background-color: #405a79;
   color: khaki;
+}
+@media (max-width: 480px) {
+  .header__container .header__nav .header__nav-list .header__nav-list-item .header__nav-list-item-btn {
+    max-width: 150px;
+    font-size: 18px;
+    line-height: 18px;
+  }
+}
+@media (max-width: 360px) {
+  .header__container .header__nav .header__nav-list .header__nav-list-item .header__nav-list-item-btn {
+    max-width: 130px;
+    font-size: 16px;
+    line-height: 16px;
+  }
 }
 
 /* font "Roboto", normal, 400 */
@@ -404,12 +425,36 @@
   color: black;
   text-align: start;
 }
+@media (max-width: 480px) {
+  .weather-forecast-card .weather-forecast-card__date-time-wrapper .weather-forecast-card__date {
+    font-size: 18px;
+    line-height: 18px;
+  }
+}
+@media (max-width: 360px) {
+  .weather-forecast-card .weather-forecast-card__date-time-wrapper .weather-forecast-card__date {
+    font-size: 16px;
+    line-height: 16px;
+  }
+}
 .weather-forecast-card .weather-forecast-card__date-time-wrapper .weather-forecast-card__time {
   font-family: "Roboto";
   font-size: 24px;
   line-height: 24px;
   color: black;
   text-align: start;
+}
+@media (max-width: 480px) {
+  .weather-forecast-card .weather-forecast-card__date-time-wrapper .weather-forecast-card__time {
+    font-size: 18px;
+    line-height: 18px;
+  }
+}
+@media (max-width: 360px) {
+  .weather-forecast-card .weather-forecast-card__date-time-wrapper .weather-forecast-card__time {
+    font-size: 16px;
+    line-height: 16px;
+  }
 }
 .weather-forecast-card .weather-forecast-card__precipitation-image {
   flex-basis: 33%;
