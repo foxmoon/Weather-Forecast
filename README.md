@@ -1,6 +1,9 @@
 # Weather-Forecast
 ### This project will allow you to find out the weather forecast in your city or your geo-location.
 ---
+### This project is hosted using the Vecel.com platform, you can see how it works here:
+## https://shist-weather-forecast.vercel.app/
+---
 ## Video demo:
 
 
